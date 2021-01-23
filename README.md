@@ -61,7 +61,7 @@ gunicorn app_deploy:app --log-level=info --log-file=- --certfile=/etc/letsencryp
 FRONTEND
 ```
 # install globally vue-cli 4.5.9 --- sudo npm install -g @vue/cli
-vue create client
+
 
 # Manually create client
 # Select Choose Vue Version (2.x), Babel,Router
@@ -73,6 +73,7 @@ cd client
 npm install --save axios
 npm install --save bootstrap-vue 
 ```
+npm run serve
 
 FLASK
 ```
