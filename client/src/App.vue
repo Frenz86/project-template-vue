@@ -1,9 +1,12 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Process</router-link> |
-      <router-link to="/admin">Admin</router-link> |
-      <router-link to="/process2">Porcess2</router-link>
+      <router-link to="/">InfoValuation</router-link> |
+      <router-link to="/riassunto">Riassunto</router-link> |
+      <router-link to="/bilancio">Bilancio</router-link> |
+      <router-link to="/indici">Indici</router-link> |
+      <router-link to="/medie">Medie</router-link> |
+      <router-link to="/multipli">Multipli e parametri</router-link> |
     </div>
     <router-view/>
   </div>

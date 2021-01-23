@@ -1,27 +1,45 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import Admin from '../views/Admin.vue';
-import Process from '../views/Process.vue';
-import Process2 from '../views/Process2.vue';
+import riassunto from '../views/riassunto.vue';
+import infovaluation from '../views/infovaluation.vue';
+import bilancio from '../views/bilancio.vue';
+import indici from '../views/indici.vue';
+import medie from '../views/medie.vue';
+import multipli from '../views/multipli.vue';
 
 Vue.use(VueRouter);
 
 const routes = [
   {
-    path: '/admin',
-    name: 'Admin',
-    component: Admin,
+    path: '/riassunto',
+    name: 'riassunto',
+    component: riassunto,
   },
   {
     path: '/',
-    name: 'Process',
-    component: Process,
+    name: 'infovaluation',
+    component: infovaluation,
   },
   {
-    path: '/process2',
-    name: 'Process2',
-    component: Process2,
+    path: '/bilancio',
+    name: 'bilancio',
+    component: bilancio,
   },
+  {
+    path: '/indici',
+    name: 'indici',
+    component: indici,
+  },
+  {
+    path: '/medie',
+    name: 'medie',
+    component: medie,
+  },
+  {
+    path: '/multipli',
+    name: 'multipli',
+    component: multipli,
+  }, 
 ];
 
 const router = new VueRouter({

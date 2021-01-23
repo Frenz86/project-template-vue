@@ -7,7 +7,8 @@
   <div>
     <b-container class="mb-3 justify-content-center" style="max-width: 740px;">
       <h4 style="margin: 0px;">
-       Ciao sono manuel e dani
+        Ciao sono manuel e dani wow!
+      <b-alert variant="success" show>Success Alert</b-alert>
       </h4>
       <h4>{{this.baby}}</h4>
     </b-container>
@@ -19,7 +20,7 @@ import axios from 'axios';
 export default {
   data() {
     return {
-      baby: "hello",
+      baby: "hello, baby hello!!!",
     }
   },
   methods: {

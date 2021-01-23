@@ -7,9 +7,11 @@
   <div>
     <b-container class="mb-3 justify-content-center" style="max-width: 740px;">
       <h4 style="margin: 0px;">
-       Ciao sono manuel e dani
+       Ciao sono manuel e dani!
       </h4>
       <h4>{{this.baby}}</h4>
+      <b-alert show>Default Alert</b-alert>
+      <b-button variant="danger">Button</b-button>
       <b-alert show>Default Alert</b-alert>
       <b-button variant="danger">Button</b-button>
     </b-container>
