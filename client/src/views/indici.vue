@@ -15,7 +15,7 @@
    
             </p></b-tab>
           <b-tab title="Bilancio">
-            <p>Tabella bilancio
+            <p>Tabella bilancio</p></b-tab>
             <div>
               <b-navbar toggleable="lg" type="dark" variant="info">
                 <b-navbar-brand href="#">NavBar</b-navbar-brand>
@@ -53,10 +53,7 @@
                   </b-navbar-nav>
                 </b-collapse>
               </b-navbar>
-            </div>            
-            
-            
-            </p></b-tab>
+            </div>         
           <b-tab title="Indici"><p>Tabella Indici</p></b-tab>
           <b-tab title="Medie"><p>Tabella medie</p></b-tab>
           <b-tab title="Multipli e parametri"><p>Tabella Multipli e parametri</p></b-tab>
